@@ -1,0 +1,41 @@
+.job-detail-container {
+    width: 40%;
+}
+
+.job-detais {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.bullet-points {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px
+}
+
+.bullet-points>.item {
+    color: #626262;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.bullet-points>.item:last-child {
+    text-transform: none;
+}
+
+.candidates {
+    margin-top: 2rem;
+}
+
+.candidates>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.candidates>div:nth-child(2)>span {
+    font-weight: 600;
+}

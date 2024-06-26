@@ -1,0 +1,97 @@
+.job-card-container {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 1rem;
+    display: flex;
+    padding: 1rem;
+}
+
+.job-card-container>a {
+    width: 100%;
+    display: flex;
+}
+
+.details {
+    flex: 5;
+    padding: 0 1rem;
+}
+
+.details h3 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.details h2 {
+    margin: 0px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.details p {
+    color: #626262;
+    font-size: 16px;
+}
+
+.bullet-points {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px
+}
+
+.bullet-points>.item {
+    color: #626262;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.bullet-points>.item:last-child {
+    text-transform: none;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.search>input {
+    outline: none;
+    width: 30%;
+    padding: 10px 1rem;
+    border-radius: 8px;
+    border: 1px solid gray
+}
+
+.search>button {
+    background-color: #65b5ff;
+    color: white;
+    border-radius: 4px;
+    padding: 14px;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.apply-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apply-container button {
+    background-color: white;
+    color: #65b5ff;
+    border-radius: 4px;
+    padding: 14px;
+    border: 1px solid #65b5ff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    min-width: 100px;
+    cursor: pointer;
+}
+
+.apply-container span {
+    color: #65b5ff;
+    font-weight: 600;
+}

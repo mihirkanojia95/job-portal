@@ -1,0 +1,7 @@
+.my-jobs-container {
+    width: 100%;
+}
+
+.my-jobs-container>h3 {
+    text-align: center;
+}
